@@ -1,0 +1,918 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <title>Cidade De Daman Beach Resort</title>
+  <link rel="shortcut icon" href="img/banner/damanlogo.jpg" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Gilda+Display&amp;family=Urbanist:wght@300;400;500;600&amp;display=swap" />
+  <link rel="stylesheet" href="css/plugins.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <!-- Toastify CSS -->
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+
+</head>
+
+<body>
+  <!-- Trigger Button (optional for reopen) -->
+  <!-- <button onclick="openPopup()" class="popup-open-btn">Open Offer</button> -->
+
+  <!-- Popup Box -->
+  <div id="popup" class="popup-overlay" style="display: none;">
+    <div class="popup-box">
+      <img src="img/resized_images/scam.jpg" alt="Special Offer" class="popup-image" />
+      <button onclick="closePopup()" class="popup-close-btn">&times;</button>
+    </div>
+  </div>
+
+  <a href="https://web.whatsapp.com/send?phone=919726866699&text=Hi%20I%20need%20help%20with%20booking"
+    class="whatsapp-float" target="_blank">
+    <i class="fa-brands fa-whatsapp"></i> How can I help you?
+  </a>
+
+  <!-- Preloader -->
+  <div class="preloader">
+    <div class="centered">
+      <div class="cont">
+        <div class="loader-circle"></div>
+        <div class="loader-line-mask">
+          <div class="loader-line"></div>
+        </div>
+        <img src="img/banner/damanlogo.jpg" alt="" />
+      </div>
+    </div>
+  </div>
+  <!-- Progress scroll totop -->
+  <div class="progress-wrap cursor-pointer">
+    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+      <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+    </svg>
+  </div>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <!-- Logo -->
+      <div class="logo-wrapper">
+        <a class="logo" href="index.html">
+          <img src="img/banner/cidadededaman-logo-white.jpg" class="logo-img" alt="" />
+        </a>
+       
+      </div>
+      <!-- Button -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar"
+        aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"><i class="fa-light fa-bars"></i></span>
+      </button>
+      <!-- Menu -->
+      <div class="collapse navbar-collapse" id="navbar">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="index.html">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="about.html" role="button">About <i
+                class="fa-light fa-angle-down"></i></a>
+            <ul class="dropdown-menu">
+              <li>
+                <a href="Review.html" class="dropdown-item active"><span>Review</span></a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="rooms1.html" role="button">Rooms <i
+                class="fa-light fa-angle-down"></i></a>
+            <ul class="dropdown-menu">
+              <li>
+                <a href="room-details1.html" class="dropdown-item"><span> Sea View Superior Room </span></a>
+              </li>
+              <li>
+                <a href="room-details2.html" class="dropdown-item"><span>Executive Deluxe Room <br />
+                    (2 bedded)</span></a>
+              </li>
+              <li>
+                <a href="room-details3.html" class="dropdown-item"><span>Executive Deluxe Room<br />(3 Bedded)
+                  </span></a>
+              </li>
+              <li>
+                <a href="room-details4.html" class="dropdown-item"><span>Pool View Deluxe Room </span></a>
+              </li>
+              <li>
+                <a href="room-details5.html" class="dropdown-item"><span>Pool View Superior Room </span></a>
+              </li>
+              <li>
+                <a href="room-details6.html" class="dropdown-item"><span>Arabian Suite Room </span></a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+              data-bs-auto-close="outside" aria-expanded="false">Amentities <i class="fa-light fa-angle-down"></i></a>
+            <ul class="dropdown-menu">
+              <li>
+                <a href="restaurant.html" class="dropdown-item"><span>Restaurant</span></a>
+              </li>
+              <li>
+                <a href="bar.html" class="dropdown-item"><span>Bar</span></a>
+              </li>
+              <li>
+                <a href="gallery-image.html" class="dropdown-item"><span>Image Gallery</span></a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="tariff.html">Tariff</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+              data-bs-auto-close="outside" aria-expanded="false">Celebrations <i class="fa-light fa-angle-down"></i></a>
+            <ul class="dropdown-menu">
+              <li>
+                <a href="wedding.html" class="dropdown-item"><span>Dream Wedding</span></a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+        <div class="navbar-right">
+          <div class="phonex">
+            <a href="tel:+91 9726866699"><i class="fa-solid fa-phone"></i> +91 9726866699</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- Parallax Image Header -->
+  <section class="parallax-header valign bg-img bg-fixed" data-overlay-dark="5" data-background="img/rooms/01.jpg">
+    <div class="container">
+      <div class="row justify-content-center align-items-center">
+        <div class="col-lg-7 col-md-12">
+          <h1>Best Wedding Destination in Daman</h1>
+          <h5>Dream destination wedding happens here</h5>
+        </div>
+        <div class="col-lg-5 col-md-12 text-end rotatex">
+          <a href="https://www.youtube.com/watch?v=RYJBVFB_s4o&t=12s" data-lity="video" class="rotate-box vid">
+            <div class="rotate-circle rotate-text">
+              <svg class="textcircle" viewBox="0 0 500 500">
+                <defs>
+                  <path id="textcircle" d="M250,400 a150,150 0 0,1 0,-300a150,150 0 0,1 0,300Z"></path>
+                </defs>
+                <text>
+                  <textPath xlink:href="#textcircle" textLength="900">
+                    Cidade De Daman Beach Resort
+                  </textPath>
+                </text>
+              </svg>
+            </div>
+            <span class="icon"> <i class="fas fa-play"></i> </span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Booking Search -->
+  <div class="booking-wrapper">
+    <div class="container">
+      <div class="booking-inner clearfix">
+        <form action="#" class="form1 clearfix">
+          <div class="col1 c1">
+            <div class="input1_wrapper border-l border-b border-t border-r br-5005">
+              <label>Check in</label>
+              <div class="input1_inner">
+                <input type="text" class="form-control input datepicker" placeholder="Check in" />
+              </div>
+            </div>
+          </div>
+          <div class="col1 c2">
+            <div class="input1_wrapper border-l border-b border-t border-r">
+              <label>Check out</label>
+              <div class="input1_inner">
+                <input type="text" class="form-control input datepicker" placeholder="Check out" />
+              </div>
+            </div>
+          </div>
+          <div class="col2 c3">
+            <div class="select1_wrapper border-l border-b border-t border-r">
+              <label>Adults</label>
+              <div class="select1_inner">
+                <select class="select2 select" style="width: 100%">
+                  <option value="1">1 Adult</option>
+                  <option value="2">2 Adults</option>
+                  <option value="3">3 Adults</option>
+                  <option value="4">4 Adults</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="col2 c4">
+            <div class="select1_wrapper border-l border-b border-t border-r">
+              <label>Children</label>
+              <div class="select1_inner">
+                <select class="select2 select" style="width: 100%">
+                  <option value="1">Children</option>
+                  <option value="1">1 Child</option>
+                  <option value="2">2 Children</option>
+                  <option value="3">3 Children</option>
+                  <option value="4">4 Children</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="col2 c5">
+            <div class="select1_wrapper border-l border-b border-t border-r">
+              <label>Rooms</label>
+              <div class="select1_inner">
+                <select class="select2 select" style="width: 100%">
+                  <option value="1">1 Room</option>
+                  <option value="2">2 Rooms</option>
+                  <option value="3">3 Rooms</option>
+                  <option value="4">4 Rooms</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="col3 c6">
+            <button type="submit" class="btn-form1-submit">Check Now</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Rooms 1 -->
+  <section class="rooms1 section-padding bg-darkgray">
+    <div class="container">
+      <div class="row mb-30 align-items-center">
+        <div class="col-md-5 text-left">
+          <div class="section-subtitle">Cidade De Daman Beach Resort</div>
+          <div class="section-title white mb-0">Best Rooms</div>
+        </div>
+        <div class="col-md-5">
+          <!-- <p>
+              The experience elementum sesue the aucan vestibulum usto sapien
+              rutrum volutan donec fermen lorem ipsum quisque sodales miss in
+              the varius drana miss.
+            </p> -->
+        </div>
+        <div class="col-md-2 d-flex justify-content-center justify-content-lg-end">
+          <div class="my-owl-nav">
+            <span class="my-prev-button">
+              <i class="fa-light fa-angle-left" aria-hidden="true"></i>
+            </span>
+            <span class="my-next-button">
+              <i class="fa-light fa-angle-right" aria-hidden="true"></i>
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="owl-carousel owl-theme">
+            <div class="item mt-20">
+              <div class="img">
+                <img src="img/rooms/a.jpg" alt="" />
+              </div>
+              <div class="wrap">
+                <div class="cont">
+                  <div class="price">
+                    &#8377;On Request <span>/ night</span>
+                  </div>
+                  <h3><a href="#"> Sea View Superior Room </a></h3>
+                  <div class="details">
+                    <span><i class="fa-thin fa-bed-front"></i>1 Bed</span>
+                    <span><i class="fa-thin fa-expand"></i> ft&sup2;</span>
+                    <span><i class="fa-thin fa-users"></i>Guests</span>
+                  </div>
+                </div>
+                <div class="arrow">
+                  <a href="room-details1.html"><span class="fa-regular fa-arrow-right"></span></a>
+                </div>
+              </div>
+            </div>
+            <div class="item mt-20">
+              <div class="img"><img src="img/rooms/b.jpg" alt="" /></div>
+              <div class="wrap">
+                <div class="cont">
+                  <div class="price">&#8377; 5500 <span>/ night</span></div>
+                  <h3><a href="#"> Executive Deluxe Room </a></h3>
+                  <div class="details">
+                    <span><i class="fa-thin fa-bed-front"></i>2 Beds</span>
+                    <span><i class="fa-thin fa-expand"></i>276 ft&sup2;</span>
+                    <span><i class="fa-thin fa-users"></i>2 Guests</span>
+                  </div>
+                </div>
+                <div class="arrow">
+                  <a href="room-details2.html"><span class="fa-regular fa-arrow-right"></span></a>
+                </div>
+              </div>
+            </div>
+            <div class="item mt-20">
+              <div class="img"><img src="img/rooms/b.jpg" alt="" /></div>
+              <div class="wrap">
+                <div class="cont">
+                  <div class="price">&#8377;7000 <span>/ night</span></div>
+                  <h3><a href="#"> Executive Deluxe Room </a></h3>
+                  <div class="details">
+                    <span><i class="fa-thin fa-bed-front"></i>3 Bed</span>
+                    <span><i class="fa-thin fa-expand"></i>276 ft&sup2;
+                    </span>
+                    <span><i class="fa-thin fa-users"></i>3 Guests</span>
+                  </div>
+                </div>
+                <div class="arrow">
+                  <a href="room-details3.html"><span class="fa-regular fa-arrow-right"></span></a>
+                </div>
+              </div>
+            </div>
+            <div class="item mt-20">
+              <div class="img">
+                <img src="img/rooms/d.jpg" alt="" />
+              </div>
+              <div class="wrap">
+                <div class="cont">
+                  <div class="price">&#8377; 7425.6 <span>/ night</span></div>
+                  <h3><a href="#"> Pool View Deluxe Room </a></h3>
+                  <div class="details">
+                    <span><i class="fa-thin fa-bed-front"></i>1 Bed</span>
+                    <span><i class="fa-thin fa-expand"></i>276 ft &sup2;</span>
+                    <span><i class="fa-thin fa-users"></i> 2 Guests</span>
+                  </div>
+                </div>
+                <div class="arrow">
+                  <a href="room-details4.html"><span class="fa-regular fa-arrow-right"></span></a>
+                </div>
+              </div>
+            </div>
+            <div class="item mt-20">
+              <div class="img">
+                <img src="img/rooms/a.jpg" alt="" />
+              </div>
+              <div class="wrap">
+                <div class="cont">
+                  <div class="price">&#8377;7400 <span>/ night</span></div>
+                  <h3><a href="#"> Pool View Superior Room </a></h3>
+                  <div class="details">
+                    <span><i class="fa-thin fa-bed-front"></i>1 Bed</span>
+                    <span><i class="fa-thin fa-expand"></i>276 ft&sup2;
+                    </span>
+                    <span><i class="fa-thin fa-users"></i>2 Guests</span>
+                  </div>
+                </div>
+                <div class="arrow">
+                  <a href="room-details5.html"><span class="fa-regular fa-arrow-right"></span></a>
+                </div>
+              </div>
+            </div>
+            <div class="item mt-20">
+              <div class="img"><img src="img/rooms/f.jpg" alt="" /></div>
+              <div class="wrap">
+                <div class="cont">
+                  <div class="price">
+                    &#8377; On Request <span>/ night</span>
+                  </div>
+                  <h3><a href="#"> Arabian Suite Room </a></h3>
+                  <div class="details">
+                    <span><i class="fa-thin fa-bed-front"></i>1 Bed</span>
+                    <span><i class="fa-thin fa-expand"></i>376 ft&sup2;
+                    </span>
+                    <span><i class="fa-thin fa-users"></i>2 Guests</span>
+                  </div>
+                </div>
+                <div class="arrow">
+                  <a href="room-details6.html"><span class="fa-regular fa-arrow-right"></span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--  Pages -->
+  <section class="facilities2 bg-lightbrown">
+    <div class="border-bottom">
+      <div class="container">
+        <ul class="tab-buttons">
+          <li data-tab="#restaurant" class="tab-btn active-btn">
+            <span>Restaurants</span>
+          </li>
+          <li data-tab="#spa" class="tab-btn"><span>Bar</span></li>
+          <li data-tab="#pool" class="tab-btn"><span>Tariff</span></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container">
+      <div class="tabs-content">
+        <!--tab 1-->
+        <div class="tab active-tab" id="restaurant">
+          <div class="row justify-content-center align-items-center">
+            <div class="col-lg-6 col-md-12">
+              <img src="img/rooms/cafe.jpg" class="img-fluid" alt="" />
+            </div>
+            <div class="col-lg-5 offset-lg-1 col-md-12">
+              <div class="section-subtitle">Uncategorized</div>
+              <div class="section-title">Restaurants</div>
+              <p class="mb-25">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Aenean egestas magna at porttitor vehicula nullam augue Lorem
+                ipsum dolor sit.
+              </p>
+
+              <a href="restaurant.html" class="button-3"><i class="fa-solid fa-user-chef"></i> View menu</a>
+            </div>
+          </div>
+        </div>
+        <!--tab 2-->
+        <div class="tab" id="spa">
+          <div class="row justify-content-center align-items-center">
+            <div class="col-lg-6 col-md-12">
+              <img src="img/rooms/rooms_bar.jpg" class="img-fluid" alt="" />
+            </div>
+            <div class="col-lg-5 offset-lg-1 col-md-12">
+              <div class="section-subtitle">Uncategorized</div>
+              <div class="section-title">Bar</div>
+              <p class="mb-25">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Aenean egestas magna at porttitor vehicula nullam augue Lorem
+                ipsum dolor sit.
+              </p>
+
+              <a href="bar.html" class="button-3"><i class="fa-solid fa-martini-glass"></i> View details</a>
+            </div>
+          </div>
+        </div>
+        <!--tab 3-->
+        <div class="tab" id="pool">
+          <div class="row justify-content-center align-items-center">
+            <div class="col-lg-6 col-md-12">
+              <img src="img/banner/title.jpg" class="img-fluid" alt="" />
+            </div>
+            <div class="col-lg-5 offset-lg-1 col-md-12">
+              <div class="section-subtitle">Uncategorized</div>
+              <div class="section-title">Tariff</div>
+
+              <a href="tariff.html" class="button-3"><i class="fa-solid fa-indian-rupee-sign"></i> View details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Header Banner -->
+  <section class="banner-header bg-img bg-fixed" data-overlay-dark="5" data-background="img/rooms/pool-Atmosphere.jpg">
+    <div class="container">
+      <div class="row col-md-12">
+        <div class="col-md-12">
+          <div class="subtitle">BEST QUALITY FOOD</div>
+          <div class="title">Restaurant</div>
+        </div>
+        <div class="col-lg-5 offset-lg-1 col-md-12 form2-wrapper">
+          <div class="form2-sidebar mt--240">
+            <form id="contact-form" class="form2 contactus">
+              <div class="head">
+                <div class="row">
+                    <h6  class="book-now-heading"style="
+                          
+                          color: black;
+                          display: inline-block;
+                          padding: 5px;
+                        
+                          margin-top: -20px;
+                          margin-bottom: 10px;
+                        ">
+                      Book Now
+                    </h6>
+                  <div class="col-md-12">
+                  
+
+                    <h5>Contact Us</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="cont">
+               
+                  <div class="row">
+                    <div class="col-lg-12 col-md-12 form-group">
+                      <input type="text" name="name" placeholder="Name" required />
+                    </div>
+                    <div class="col-lg-12 col-md-12 form-group">
+                      <input type="email" name="email" placeholder="Email" required />
+                    </div>
+                    <div class="col-lg-12 col-md-12 form-group">
+                      <input type="text" name="phone" placeholder="Phone" required />
+                    </div>
+                    <div class="col-md-12 form-group">
+                      <input type="text" name="subject" placeholder="Subject" />
+                    </div>
+                    <div class="col-md-12 form-group">
+                      <textarea name="message" cols="30" rows="4" placeholder="Message"></textarea>
+                    </div>
+                    <div class="col-md-12">
+                      <button class="button-3" type="submit">
+                        <i class="fa-light fa-paper-plane"></i> Submit
+                      </button>
+                    </div>
+                  </div>
+                  </div>
+              
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing 2 -->
+  <section class="pricing2 section-padding bg-darkgray">
+    <div class="container">
+      <div class="row justify-content-center"></div>
+      <div class="row">
+        <div class="col-lg-4 col-md-6">
+          <div class="item w-100">
+            <div class="con">
+              <span class="title d-block"> Best Rooms</span>
+
+              <ul class="pricing-text mb-30">
+                <li>
+                  <span class="ti-check mr-2"></span>Revel in the splendor and
+                  heritage of Portuguese-Mediterranean architecture with
+                  breathtaking sea-facing rooms that let in bright, natural
+                  light.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="item w-100">
+            <div class="con">
+              <span class="title d-block"> Bar & Resturant </span>
+
+              <ul class="pricing-text mb-30">
+                <li>
+                  <span class="ti-check mr-2"></span>Sipping - on cocktails by
+                  the poolside & Sea Side is the ultimate way to end an
+                  evening or get together with family and friends for
+                  conversations while you enjoy a meal.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="item w-100">
+            <div class="con">
+              <span class="title d-block">Destination Weddings </span>
+
+              <ul class="pricing-text mb-30">
+                <li>
+                  <span class="ti-check mr-2"></span> The little details
+                  aren't so little when it comes to planning your wedding day
+                  and there's no better feeling than knowing someone else is
+                  taking care of it all. From decor to floral arrangements and
+                  place settings to services, we've got it all covered to make
+                  your special day truly mesmerizing and unforgettable.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery Image -->
+  <section class="galleryscroll section-padding bg-white">
+    <div class="container-fluid p-0">
+      <div class="row justify-content-center">
+        <div class="col-md-12 text-center mb-20">
+          <h2>
+            Perfect Place for
+            <span id="changing-text">Dream Wedding</span>
+          </h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="owl-carousel owl-theme">
+            <div class="item">
+              <a href="img/blog/weeed_fb-500x500.jpg" title="" class="gallery-masonry-item-img-link img-zoom">
+                <div class="img">
+                  <img src="img/blog/weeed_fb-500x500.jpg" class="img-fluid mx-auto d-block" alt="" />
+                </div>
+              </a>
+            </div>
+            <div class="item">
+              <a href="img/wed_fb.jpg" title="" class="gallery-masonry-item-img-link img-zoom">
+                <div class="img">
+                  <img src="img/wed_fb.jpg" class="img-fluid mx-auto d-block" alt="" />
+                </div>
+              </a>
+            </div>
+            <div class="item">
+              <a href="img/blog/wed88.jpg" title="" class="gallery-masonry-item-img-link img-zoom">
+                <div class="img">
+                  <img src="img/blog/wed88.jpg" class="img-fluid mx-auto d-block" alt="" />
+                </div>
+              </a>
+            </div>
+            <div class="item">
+              <a href="img/blog/wed33.jpg" title="" class="gallery-masonry-item-img-link img-zoom">
+                <div class="img">
+                  <img src="img/blog/wed33.jpg" class="img-fluid mx-auto d-block" alt="" />
+                </div>
+              </a>
+            </div>
+            <div class="item">
+              <a href="img/blog/wed4.jpg" title="" class="gallery-masonry-item-img-link img-zoom">
+                <div class="img">
+                  <img src="img/blog/wed4.jpg" class="img-fluid mx-auto d-block" alt="" />
+                </div>
+              </a>
+            </div>
+            <div class="item">
+              <a href="img/blog/wed1.jpg" title="" class="gallery-masonry-item-img-link img-zoom">
+                <div class="img">
+                  <img src="img/blog/wed1.jpg" class="img-fluid mx-auto d-block" alt="" />
+                </div>
+              </a>
+            </div>
+            <div class="item">
+              <a href="img/blog/wed6.jpg" title="" class="gallery-masonry-item-img-link img-zoom">
+                <div class="img">
+                  <img src="img/blog/wed6.jpg" class="img-fluid mx-auto d-block" alt="" />
+                </div>
+              </a>
+            </div>
+            <div class="item">
+              <a href="img/blog/fb_wed-500x500.jpg" title="" class="gallery-masonry-item-img-link img-zoom">
+                <div class="img">
+                  <img src="img/blog/fb_wed-500x500.jpg" class="img-fluid mx-auto d-block" alt="" />
+                </div>
+              </a>
+            </div>
+            <!-- <div class="item">
+                <a
+                  href="img/blog/fb_wed.jpg"
+                  title=""
+                  class="gallery-masonry-item-img-link img-zoom"
+                >
+                  <div class="img">
+                    <img
+                      src="img/blog/fb_wed.jpg"
+                      class="img-fluid mx-auto d-block"
+                      alt=""
+                    />
+                  </div>
+                </a>
+              </div> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="blog1 section-padding bg-lightbrown">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 col-md-12">
+          <h1 class="text-center">Around Us</h1>
+
+          <div class="row">
+            <div class="col-lg-4 col-md-12 mb-30">
+              <div class="item">
+                <div class="img">
+                  <img src="img/daman/ghogla-beach.jpg" class="img-fluid" alt="" />
+                  <!-- <div class="cat">Health</div> -->
+                </div>
+                <div class="cont">
+                  <h4>
+                    <a href="water-sports.html">Water Sports & Para-ridding
+                    </a>
+                  </h4>
+                  <p>
+                    A few kilometers from our Hotel you will find Jampore
+                    beach, One of the neatest and clean beaches of the entire
+                    Daman. Here you will find the range of Wanter Sports and
+                    Para-riding with safety and lots of fun. Don&rsquo;t
+                    forget to visit Jampore beach while you are staying at
+                    Cidade De Daman.
+                  </p>
+
+                  <div>
+                    <h3>
+                      <a href="water-sports.html" class="text-decoration-line-bottom">Read More...</a>
+                    </h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-12 mb-30">
+              <div class="item">
+                <div class="img">
+                  <img src="img/daman/Harbour_View_from_Moti_Daman_Fort.jpg" class="img-fluid" alt="" />
+                  <!-- <div class="cat">Health</div> -->
+                </div>
+                <div class="cont">
+                  <h4>
+                    <a href="nani-daman-fort.html">Nani Daman Fort (Jeronimo Fort)</a>
+                  </h4>
+                  <p>
+                    Daman was taken from its Gujarati ruler by the Portuguese
+                    in 1531 but was only officially handed over to the
+                    Portuguese in 1559 by Bahadur Shah, the Sultan of Gujarat.
+                    Diu became a Portuguese colony in 1539 after the signing
+                    of a peace treaty by the Sultan of Gujarat, Bahadur Shah.
+                    The territories remained Portuguese [&hellip;]
+                  </p>
+
+                  <div>
+                    <h3>
+                      <a href="nani-daman-fort.html" class="text-decoration-line-bottom">Read More...</a>
+                    </h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-12 mb-30">
+              <div class="item">
+                <div class="img">
+                  <img src="img/daman/bom.jpg" class="img-fluid" alt="" />
+                  <!-- <div class="cat">Wellness</div> -->
+                </div>
+                <div class="cont">
+                  <h4>
+                    <a href="church-of-bom-jesus.html">Church of Bom Jesus</a>
+                  </h4>
+                  <meta charset="UTF-8" />
+                  <p>
+                    The Basilica of Bom Jesus (Portuguese:
+                    <i>Bas&iacute;lica do Bom Jesus</i>; Konkani:
+                    <i>Borea Jezuchi Bajilika</i>) is a Roman Catholic
+                    basilica located in Goa, India, and is part of the
+                    Churches and convents of Goa UNESCO World Heritage
+                    Site.[1][2] The basilica is located in Old Goa, former
+                    capital of Portuguese India, and holds the mortal remains
+                    of St. Francis Xavier.[3] &lsquo;Bom Jesus&rsquo;
+                    (literally, &lsquo;Good (or Holy) Jesus&rsquo;) is the
+                    name used for the Ecce Homo in the [&hellip;].
+                  </p>
+
+                  <div>
+                    <h3>
+                      <a href="church-of-bom-jesus.html" class="text-decoration-line-bottom">Read More...</a>
+                    </h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <!-- top -->
+    <div class="top">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-4 mb-30">
+            <div class="item">
+              <div class="logo">
+                <img src="img/banner/cidadededaman-logo-white.jpg" alt="" />
+              </div>
+              <!--  -->
+              <div class="social-icons">
+                <ul class="list-inline">
+                  <li>
+                    <a href="https://www.instagram.com/cidade_de_daman/"><i class="fa-brands fa-instagram"></i></a>
+                  </li>
+                  <li>
+                    <a href="https://follow.it/cidadededaman?action=followPub"><i class="fa-solid fa-envelope"></i></a>
+                  </li>
+                  <li>
+                    <a href="https://www.facebook.com/cidadededaman/"><i class="fa-brands fa-facebook-f"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 mb-30">
+            <div class="item">
+              <h3>Contact us</h3>
+              <p>
+                Devka Beach Road, Devka,<br />
+                Nani Daman,
+
+                <br />
+                Dadra and Nagar Haveli and Daman and Diu 396210
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 mb-30">
+            <div class="item">
+              <h3>Reach us</h3>
+
+              <div class="phone">
+                <a href="tel:0260 - 2250590 / 467 / 468 ">0260 - 2250590 / 467 / 468
+                </a>
+              </div>
+              <div class="phone">
+                <a href="tel:+91 9726866699"> +91 9726866699</a>
+              </div>
+              <div class="mail">
+                <a href="mailto:cdd.beachresort@gmail.com">
+                  cdd.beachresort@gmail.com</a>
+              </div>
+              <div class="mail">
+                <a href="mailto:reservations@cidadededaman.com">reservations@cidadededaman.com</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 mb-30">
+            <div class="item">
+              <h3>Subscribe</h3>
+              <p>
+                Want to be notified about our services. Just sign up and we'll
+                send you a notification by phone.
+              </p>
+              <div class="newsletter">
+              <form id="subscribe-form">
+                    <input
+                      type="number"
+                      name="phone"
+                      placeholder="Phone Number"
+                      required
+                    />
+                    <button type="submit" id="submitBtn">
+                      <span class="btn-icon">
+                        <i class="fa-light fa-arrow-right"></i>
+                      </span>
+                      <span class="spinner" style="display: none">
+                        <i class="fa fa-spinner fa-spin"></i>
+                      </span>
+                    </button>
+                  </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- bottom -->
+    <div class="bottom">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-12">
+            <div class="links">
+              <ul>
+                <li><a href="terms&condition.html">Terms & Conditions</a></li>
+                <li><a href=" privacy-policy.html">Privacy Policy</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-12 text-end">
+            <p>
+              Copyrights&copy;2025 by
+              <a href="index.html">Cidade De Daman - All Rights Reserved</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- jQuery -->
+  <script src="js/jquery-3.7.1.min.js"></script>
+  <script src="js/jquery-migrate-3.4.1.min.js"></script>
+  <script src="js/modernizr-2.6.2.min.js"></script>
+  <script src="js/imagesloaded.pkgd.min.js"></script>
+  <script src="js/jquery.isotope.v3.0.2.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/scrollIt.min.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/jquery.magnific-popup.js"></script>
+  <script src="js/YouTubePopUp.js"></script>
+  <script src="js/select2.js"></script>
+  <script src="js/datepicker.js"></script>
+ <script src="js/custom.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+
+</body>
+
+
+
+</html>
