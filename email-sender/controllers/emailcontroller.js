@@ -102,3 +102,12 @@ exports.sendReview = async (req, res) => {
   }
 };
 
+
+
+const getPing = (req, res) => {
+  res.json({ message: "GET API is working!" });
+};
+
+module.exports = {
+  getPing,
+};
